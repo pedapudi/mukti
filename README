@@ -1,0 +1,46 @@
+Mukti
+-----
+
+Recent political events in middle-eastern and north-african countries have 
+demonstrated that traditional communication media are useless when 
+infrastructure is controlled by a rogue/oppressive regime. Similar situation 
+can also arise due to large natural disasters (e.g., earthquakes, tsunami) that 
+can wipe out complete communication infrastructure. While sending information 
+outside a region is dependent on the availability of a handful of egress 
+points, communication inside the region can be enabled using wireless mesh 
+networks (WMN). By incorporating ideas from delay-tolerant networking (DTN) 
+literature, eventual reachability can also be ensured. Our goal is to build 
+an application for smart phones to enable dissemination of information in 
+hostile/disrupted environments by incorporating WMN and DTN features. While 
+our initial medium of data transfer will be WiFi, ideally our application 
+should be able to opportunistically use 3G and Bluetooth as well. 
+
+This project's intitial code base is android-wifi-tether 
+source: svn checkout http://android-wifi-tether.googlecode.com/svn/trunk/
+
+description:
+Wireless Tether for Root Users
+--------------------------
+
+This software turns your android-based handset (tested with a T-Mobile G1) into something like
+a wireless access point (that's incorrect in technical-view because the wireless interface will be 
+set up in AdHoc-Mode). Clients can connect via wifi or bluetooth and get access to internet using 
+the 3G-connection (GPRS/EDGE/UMTS/HSDPA) which is established by the handset.
+
+Warning:
+--------
+This application needs root-permission.
+
+Credits/Thanks:
+---------------
+* parrothd  (shell-scripts for tethering - an excellent starting-point)
+http://forum.xda-developers.com/showthread.php?t=474470
+
+* zodiac (updated tether shell script that works without JF-specific utilities)
+http://code.google.com/p/android-wifi-tether/issues/detail?id=9
+
+* manowarlord - (iconset) http://www.kde-look.org/content/show.php/KDE4+Crystal+Diamond+Icons?content=92163 
+
+* Eugene Ray (iptables)
+
+* Robert "Unlogic" Olofsson (lock icons) http://www.unlogic.se/projects/openicons
